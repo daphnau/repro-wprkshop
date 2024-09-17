@@ -37,3 +37,11 @@ as you can see in @fig-box
 in [@klein2012] they were grate
 
 $a+b=c$
+
+bullet points
+
+1
+
+2
+
+3

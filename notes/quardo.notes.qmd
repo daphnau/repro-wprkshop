@@ -1,0 +1,39 @@
+---
+title: "My Notes"
+author: "Daphna Uni"
+#date: "2024-09-05"
+date: today
+format: html
+toc: true
+code-fold: true
+bibliography: references.bib
+---
+
+##Load Data
+
+```{r}
+#|label: steup
+library(tidyverse)
+library(palmerpenguins)
+library(knitr)
+```
+
+```{r}
+#| warnings: false
+#| code-fold: true
+#| 
+#| label: fig-box
+#| fig-cap: "Boxplot of penguin body mass"
+ggplot(penguins, aes(x = sex, y = body_mass_g)) + geom_boxplot()
+```
+
+```{r}
+#| lable: tbl-sample
+table(penguins$sex, penguins$island, useNA = "always") |> kable()
+```
+
+as you can see in @fig-box
+
+in [@klein2012] they were grate
+
+$a+b=c$
